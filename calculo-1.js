@@ -1,13 +1,13 @@
-let param1 = calcMedia(100,100);
-let param2 = calcMedia(90,90);
-let mediaExp = calcMediaExp(param1,param2);
+
+
 
 function validaJogo (){
-
+    let rodada = document.getElementById("rodada");
+    document.write (rodada);
 }
 
 
-function calcMedia (a,b){
+/**function calcMedia (a,b){
     if(a,b<60){
        return "Desaprovado por parâmetro abaixo da média";
     }else{
@@ -23,7 +23,10 @@ function calcMediaExp (param1,param2){
      }
 }
 
+let param1 = calcMedia(100,100);
+let param2 = calcMedia(90,90);
+let mediaExp = calcMediaExp(param1,param2);
 
 console.log ("Média casa e fora "+param1+"%");
 console.log ("Média geral "+param2+"%");
-console.log ("Média exponencial "+mediaExp+"%");
+console.log ("Média exponencial "+mediaExp+"%");**/
