@@ -1,35 +1,29 @@
 function validaJogo (){
 
     var jogo = {
-        "rodada": 12,
-        "casa": 60,
-        "fora": 70,
-        "casaG": 80,
-        "foraG": 100
-    }
-    return jogo;
-    /**let rodada = document.getElementById("rodada").value;
-    let casa = document.getElementById("vCasa").value;
-    let fora = document.getElementById("vFora").value;
-    let casaG =  document.getElementById("casaG").value;
-    let foraG =  document.getElementById("foraG").value;
-
-    document.write(rodada);
-    document.write(casa);
-    document.write(fora);**/ 
+        rodada: document.getElementById("rodada").value,
+        casa: document.getElementById("vCasa").value,
+        fora: document.getElementById("vFora").value,
+        casaG: document.getElementById("casaG").value,
+        foraG: document.getElementById("foraG").value
     
+    }
+     
+    for(p in jogo){
+        document.write(p+"</br>");
+    }
 }
 
-console.log(validaJogo());
 
-    /**function calcMedia (a,b){
+
+    /**
+    function calcMedia (a,b){
         if(a,b<60){
            return "Desaprovado por parâmetro abaixo da média";
         }else{
             return (a+b)/2;
         }
     }
-    
     function calcMediaExp (param1,param2){
         if(param1,param2<60){
             return "Desaprovado por parâmetro abaixo da média";
