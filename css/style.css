@@ -10,6 +10,8 @@ body h1{
 main{
     border: 1px solid #ccc;
     display: flex;
+    max-width: 550px;
+    margin: auto;
 
 }
 #dados{
@@ -24,4 +26,26 @@ main{
 }
 .hide{
     display: none;
+}
+input{
+    padding: .3rem;
+    margin-bottom: .5rem;
+}
+label{
+    margin-right: .3rem;
+}
+
+#calc{
+    width: 100%;
+    padding: .5rem;
+    background-color: #38bbf7;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+#calc:hover{
+    transition:.4s;
+    background-color: #35c67b;
 }
