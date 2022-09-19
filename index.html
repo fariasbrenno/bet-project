@@ -5,23 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora Over 0.5 gols ht</title>
-    <script src="calculo-1.js"></script>
+    <script src="js/calculo-1.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h1>Calculadora Over 0.5 gols ht</h1>
-
-    <form name="fomulario">
-        <fieldset>
+    <main>
+        <form id="dados">
             <label for="">Rodada</label><input type="number" name="" id="rodada"><br>
             <span>5 últimos jogos sem 0 a 0 ?</span><input type="radio" name="" id="zeroZero" value="Sim"><label for="">Sim</label><br>
             <label for="">% Casa </label><input type="number" name="" id="vCasa"><br>
             <label for="">% Fora </label><input type="number" name="" id="vFora"><br>
             <label for="">% Casa Geral</label><input type="number" name="" id="casaG"><br>
             <label for="">% Fora Geral</label><input type="number" name="" id="foraG"><br>
-
-            <button onclick="validaJogo()">Calcular</button>
-        </fieldset>
-    </form>
-
+            <button id="calc" onclick="validaJogo()">Calcular</button>
+        </form>
+        <section id="result" class="hide">
+            <h3>O jogo está aprovado</h3>
+            <h4>Aprovação de 90%</h4>
+        </section>
+    </main>
 </body>
 </html>

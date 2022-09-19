@@ -1,0 +1,27 @@
+/*Geral*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: helvetica;
+}
+body h1{
+    text-align: center;
+}
+main{
+    border: 1px solid #ccc;
+    display: flex;
+
+}
+#dados{
+    border-right: 1px solid #ccc;
+    padding: .8rem;
+}
+#result{
+    padding: .8rem;
+    text-align: center;
+    flex: 1;
+    margin: auto;
+}
+.hide{
+    display: none;
+}
