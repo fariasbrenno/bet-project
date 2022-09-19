@@ -7,9 +7,19 @@ function validaJogo (){
 
     if(rodada < 12){
         document.write("Rodada menor que a permitida");
+        if(casa, fora < 60){
+            document.write("Percentual casa ou fora abaixo para aprovação!");
+            if(casaGeral, foraGeral < 60){
+                document.write("Percentual casa ou fora geral abaixo para aprovação!");
+                var calc1 = (casa+fora)/2;
+                var calc2 = (casaG+foraG)/2;
+                var calcFinal = (calc1+calc2)/2;
+
+                document.write(calcFinal);
+            }
+        }
     }
-    
-}
+
     /**
     function calcMedia (a,b){
         if(a,b<60){
