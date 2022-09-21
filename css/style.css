@@ -8,24 +8,40 @@ body h1{
     text-align: center;
 }
 main{
-    border: 1px solid #ccc;
+    background-image: linear-gradient(45deg, black, green);
+    height: 100vh;
+    color: #fff;
+}
+#forms{
     display: flex;
-    max-width: 550px;
+    position: absolute;
     margin: auto;
-
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0,.7);
+    border-radius: 15px;
+    color: #fff;
+    width: 400px;
 }
 #dados{
-    border-right: 1px solid #ccc;
     padding: .8rem;
+    border-right: 1px solid #ccc;
 }
 #result{
-    padding: .8rem;
     text-align: center;
-    flex: 1;
-    margin: auto;
+    width: 300px;
+}
+#result h4{
+    background-color: rgba(0,0,0,.7);
+    padding: .8rem;
+    border-radius: 0 15px 0 0;
+}
+#result p{
+    margin-top: 50%;
 }
 .hide{
-    display: none;
+    /* display: none; */
 }
 input{
     padding: .3rem;
