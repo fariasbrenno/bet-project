@@ -7,7 +7,7 @@ function calcCasaFora (){
     var casaG = document.getElementById("casaG").value;
     var foraG = document.getElementById("foraG").value;
 
-    function calculos (){
+    /*function calculos (){
         if(rodada<12){
             return document.getElementById("texto").innerHTML = "<span style='color: red;'>Não possui o número de rodadas suficientes</span>";
         }
@@ -26,7 +26,13 @@ function calcCasaFora (){
         return document.getElementById("texto").innerHTML = "<span style='color:green;'> APROVADO com " + ((calcCasaFora+calcGeral)/2) + "%</span>";
     }
 
-    return calculos();
+    return calculos();*/
+
+    
 }
+
+//Eventos
+let startBtn = document.getElementById ("calc");
+startBtn.addEventListener ("click", calcCasaFora);
 
 
