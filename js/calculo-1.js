@@ -28,14 +28,11 @@ function calcCasaFora (){
 
     return calculos();*/
     function calculation (rodada, casa, fora, casaGeral, foraGeral) {
-        rodada = document.getElementById("rodada").value;
-        casa = document.getElementById("vCasa").value;
-        fora = document.getElementById("vFora").value;
-        casaGeral = document.getElementById("casaG").value;
-        foraGeral = document.getElementById("foraG").value;
-
+          
     }
-    
+
+    let rod = document.getElementById("rodada").value;
+
     
 }
 
