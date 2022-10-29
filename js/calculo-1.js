@@ -1,13 +1,13 @@
 
 
 function calcCasaFora (){ 
-    var vCasa = document.getElementById("vCasa").value;
+    /*var vCasa = document.getElementById("vCasa").value;
     var vFora = document.getElementById("vFora").value;
     var rodada = document.getElementById("rodada").value;
     var casaG = document.getElementById("casaG").value;
     var foraG = document.getElementById("foraG").value;
 
-    /*function calculos (){
+    function calculos (){
         if(rodada<12){
             return document.getElementById("texto").innerHTML = "<span style='color: red;'>Não possui o número de rodadas suficientes</span>";
         }
@@ -27,7 +27,15 @@ function calcCasaFora (){
     }
 
     return calculos();*/
+    function calculation (rodada, casa, fora, casaGeral, foraGeral) {
+        rodada = document.getElementById("rodada").value;
+        casa = document.getElementById("vCasa").value;
+        fora = document.getElementById("vFora").value;
+        casaGeral = document.getElementById("casaG").value;
+        foraGeral = document.getElementById("foraG").value;
 
+    }
+    
     
 }
 
